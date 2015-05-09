@@ -13,6 +13,7 @@
 # limitations under the License.
 
 TARGET_KERNEL_CONFIG := aosp_shinano_leo_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/msm
 
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/leo/overlay
